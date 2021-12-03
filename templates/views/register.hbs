@@ -1,0 +1,29 @@
+{{>header}}
+{{>navbar}}
+
+<body>
+    <h1>Registration Page</h1>
+
+    <div class="form-box">
+
+  <form action="/register" method="POST">
+    <input type="text" placeholder="First Name" value="" name="namefirst">
+    <input type="text" placeholder="Last Name" value="" name="namelast">
+    <input type="email" placeholder="email" value="" name="nameemail">
+    <input type="text" minlength="10" maxlength="10" placeholder="phone" value="" name="namephone">
+    
+    
+    <input type="radio" placeholder="" value="male" name="namegender">
+    <span>Male</span>
+    <input type="radio" placeholder="" value="female" name="namegender">
+    <span>Female</span>
+ 
+    <input type="text" name="nameage" placeholder="Age">
+    
+    <input type="password" name="namepassword" placeholder="Enter PAssword">
+    <input type="password" name="nameconfirmpassword" placeholder="Confirm PAssword">
+  
+    <input type="submit">
+  </form>
+</div>
+</body>
